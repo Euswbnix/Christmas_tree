@@ -1,6 +1,6 @@
 //
-//  Christmas_treeApp.swift
-//  Christmas_tree
+//  ChristmasTreeAppApp.swift
+//  ChristmasTreeApp
 //
 //  Created by 🌈ALEX HUANG🏖️ on 2025-12-17.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Christmas_treeApp: App {
+struct ChristmasTreeAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

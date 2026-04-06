@@ -1,13 +1,14 @@
 //
-//  Christmas_treeTests.swift
-//  Christmas_treeTests
+//  ChristmasTreeAppTests.swift
+//  ChristmasTreeAppTests
 //
 //  Created by 🌈ALEX HUANG🏖️ on 2025-12-17.
 //
 
 import Testing
+@testable import ChristmasTreeApp
 
-struct Christmas_treeTests {
+struct ChristmasTreeAppTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

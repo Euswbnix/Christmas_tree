@@ -21,28 +21,61 @@
 			remoteGlobalIDString = DD8174A42EF32433005E46FC;
 			remoteInfo = Christmas_tree;
 		};
+		DD8174EE2EF32FDE005E46FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD81749D2EF32433005E46FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8174E02EF32FDD005E46FC;
+			remoteInfo = ChristmasTreeApp;
+		};
+		DD8174F82EF32FDE005E46FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD81749D2EF32433005E46FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8174E02EF32FDD005E46FC;
+			remoteInfo = ChristmasTreeApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD8174A52EF32433005E46FC /* Christmas_tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Christmas_tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8174B22EF32434005E46FC /* Christmas_treeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Christmas_treeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8174BC2EF32434005E46FC /* Christmas_treeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Christmas_treeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8174E12EF32FDD005E46FC /* ChristmasTreeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasTreeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8174ED2EF32FDE005E46FC /* ChristmasTreeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTreeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8174F72EF32FDE005E46FC /* ChristmasTreeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTreeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD81750D2EF3316F005E46FC /* Exceptions for "ChristmasTreeApp" folder in "Christmas_tree" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"ContentView 2.swift",
+				MetalView.swift,
+				Renderer.swift,
+				Shaders.metal,
+			);
+			target = DD8174A42EF32433005E46FC /* Christmas_tree */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DD8174A72EF32433005E46FC /* Christmas_tree */ = {
+		DD8174E22EF32FDD005E46FC /* ChristmasTreeApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Christmas_tree;
+			exceptions = (
+				DD81750D2EF3316F005E46FC /* Exceptions for "ChristmasTreeApp" folder in "Christmas_tree" target */,
+			);
+			path = ChristmasTreeApp;
 			sourceTree = "<group>";
 		};
-		DD8174B52EF32434005E46FC /* Christmas_treeTests */ = {
+		DD8174F02EF32FDE005E46FC /* ChristmasTreeAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Christmas_treeTests;
+			path = ChristmasTreeAppTests;
 			sourceTree = "<group>";
 		};
-		DD8174BF2EF32434005E46FC /* Christmas_treeUITests */ = {
+		DD8174FA2EF32FDE005E46FC /* ChristmasTreeAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Christmas_treeUITests;
+			path = ChristmasTreeAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,15 +102,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD8174DE2EF32FDD005E46FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174EA2EF32FDE005E46FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174F42EF32FDE005E46FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DD81749C2EF32433005E46FC = {
 			isa = PBXGroup;
 			children = (
-				DD8174A72EF32433005E46FC /* Christmas_tree */,
-				DD8174B52EF32434005E46FC /* Christmas_treeTests */,
-				DD8174BF2EF32434005E46FC /* Christmas_treeUITests */,
+				DD8174E22EF32FDD005E46FC /* ChristmasTreeApp */,
+				DD8174F02EF32FDE005E46FC /* ChristmasTreeAppTests */,
+				DD8174FA2EF32FDE005E46FC /* ChristmasTreeAppUITests */,
 				DD8174A62EF32433005E46FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +142,9 @@
 				DD8174A52EF32433005E46FC /* Christmas_tree.app */,
 				DD8174B22EF32434005E46FC /* Christmas_treeTests.xctest */,
 				DD8174BC2EF32434005E46FC /* Christmas_treeUITests.xctest */,
+				DD8174E12EF32FDD005E46FC /* ChristmasTreeApp.app */,
+				DD8174ED2EF32FDE005E46FC /* ChristmasTreeAppTests.xctest */,
+				DD8174F72EF32FDE005E46FC /* ChristmasTreeAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +163,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DD8174A72EF32433005E46FC /* Christmas_tree */,
 			);
 			name = Christmas_tree;
 			packageProductDependencies = (
@@ -130,9 +184,6 @@
 			dependencies = (
 				DD8174B42EF32434005E46FC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DD8174B52EF32434005E46FC /* Christmas_treeTests */,
-			);
 			name = Christmas_treeTests;
 			packageProductDependencies = (
 			);
@@ -153,14 +204,79 @@
 			dependencies = (
 				DD8174BE2EF32434005E46FC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DD8174BF2EF32434005E46FC /* Christmas_treeUITests */,
-			);
 			name = Christmas_treeUITests;
 			packageProductDependencies = (
 			);
 			productName = Christmas_treeUITests;
 			productReference = DD8174BC2EF32434005E46FC /* Christmas_treeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD8174E02EF32FDD005E46FC /* ChristmasTreeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8174FF2EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeApp" */;
+			buildPhases = (
+				DD8174DD2EF32FDD005E46FC /* Sources */,
+				DD8174DE2EF32FDD005E46FC /* Frameworks */,
+				DD8174DF2EF32FDD005E46FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD8174E22EF32FDD005E46FC /* ChristmasTreeApp */,
+			);
+			name = ChristmasTreeApp;
+			packageProductDependencies = (
+			);
+			productName = ChristmasTreeApp;
+			productReference = DD8174E12EF32FDD005E46FC /* ChristmasTreeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD8174EC2EF32FDE005E46FC /* ChristmasTreeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8175022EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeAppTests" */;
+			buildPhases = (
+				DD8174E92EF32FDE005E46FC /* Sources */,
+				DD8174EA2EF32FDE005E46FC /* Frameworks */,
+				DD8174EB2EF32FDE005E46FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8174EF2EF32FDE005E46FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD8174F02EF32FDE005E46FC /* ChristmasTreeAppTests */,
+			);
+			name = ChristmasTreeAppTests;
+			packageProductDependencies = (
+			);
+			productName = ChristmasTreeAppTests;
+			productReference = DD8174ED2EF32FDE005E46FC /* ChristmasTreeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD8174F62EF32FDE005E46FC /* ChristmasTreeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8175052EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeAppUITests" */;
+			buildPhases = (
+				DD8174F32EF32FDE005E46FC /* Sources */,
+				DD8174F42EF32FDE005E46FC /* Frameworks */,
+				DD8174F52EF32FDE005E46FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8174F92EF32FDE005E46FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD8174FA2EF32FDE005E46FC /* ChristmasTreeAppUITests */,
+			);
+			name = ChristmasTreeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ChristmasTreeAppUITests;
+			productReference = DD8174F72EF32FDE005E46FC /* ChristmasTreeAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -184,6 +300,17 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = DD8174A42EF32433005E46FC;
 					};
+					DD8174E02EF32FDD005E46FC = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					DD8174EC2EF32FDE005E46FC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = DD8174E02EF32FDD005E46FC;
+					};
+					DD8174F62EF32FDE005E46FC = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = DD8174E02EF32FDD005E46FC;
+					};
 				};
 			};
 			buildConfigurationList = DD8174A02EF32433005E46FC /* Build configuration list for PBXProject "Christmas_tree" */;
@@ -203,6 +330,9 @@
 				DD8174A42EF32433005E46FC /* Christmas_tree */,
 				DD8174B12EF32434005E46FC /* Christmas_treeTests */,
 				DD8174BB2EF32434005E46FC /* Christmas_treeUITests */,
+				DD8174E02EF32FDD005E46FC /* ChristmasTreeApp */,
+				DD8174EC2EF32FDE005E46FC /* ChristmasTreeAppTests */,
+				DD8174F62EF32FDE005E46FC /* ChristmasTreeAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +353,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DD8174BA2EF32434005E46FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174DF2EF32FDD005E46FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174EB2EF32FDE005E46FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174F52EF32FDE005E46FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +404,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD8174DD2EF32FDD005E46FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174E92EF32FDE005E46FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8174F32EF32FDE005E46FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +437,16 @@
 			isa = PBXTargetDependency;
 			target = DD8174A42EF32433005E46FC /* Christmas_tree */;
 			targetProxy = DD8174BD2EF32434005E46FC /* PBXContainerItemProxy */;
+		};
+		DD8174EF2EF32FDE005E46FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8174E02EF32FDD005E46FC /* ChristmasTreeApp */;
+			targetProxy = DD8174EE2EF32FDE005E46FC /* PBXContainerItemProxy */;
+		};
+		DD8174F92EF32FDE005E46FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8174E02EF32FDD005E46FC /* ChristmasTreeApp */;
+			targetProxy = DD8174F82EF32FDE005E46FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,13 +596,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -456,13 +638,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -565,6 +747,152 @@
 			};
 			name = Release;
 		};
+		DD8175002EF32FDE005E46FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD8175012EF32FDE005E46FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD8175032EF32FDE005E46FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTreeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChristmasTreeApp";
+			};
+			name = Debug;
+		};
+		DD8175042EF32FDE005E46FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTreeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChristmasTreeApp";
+			};
+			name = Release;
+		};
+		DD8175062EF32FDE005E46FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChristmasTreeApp;
+			};
+			name = Debug;
+		};
+		DD8175072EF32FDE005E46FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = C.ChristmasTreeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChristmasTreeApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,6 +928,33 @@
 			buildConfigurations = (
 				DD8174CD2EF32434005E46FC /* Debug */,
 				DD8174CE2EF32434005E46FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8174FF2EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8175002EF32FDE005E46FC /* Debug */,
+				DD8175012EF32FDE005E46FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8175022EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8175032EF32FDE005E46FC /* Debug */,
+				DD8175042EF32FDE005E46FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8175052EF32FDE005E46FC /* Build configuration list for PBXNativeTarget "ChristmasTreeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8175062EF32FDE005E46FC /* Debug */,
+				DD8175072EF32FDE005E46FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

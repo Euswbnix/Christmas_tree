@@ -1,13 +1,13 @@
 //
-//  Christmas_treeUITestsLaunchTests.swift
-//  Christmas_treeUITests
+//  ChristmasTreeAppUITestsLaunchTests.swift
+//  ChristmasTreeAppUITests
 //
 //  Created by 🌈ALEX HUANG🏖️ on 2025-12-17.
 //
 
 import XCTest
 
-final class Christmas_treeUITestsLaunchTests: XCTestCase {
+final class ChristmasTreeAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
