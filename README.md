@@ -2,6 +2,18 @@
 
 一个用 **SwiftUI + Metal** 写的 macOS 圣诞树小程序。屏幕上会实时渲染一棵由几万个发光点组成的 3D 圣诞树，缓慢自转，树顶飘着一颗心形，地上有几圈光环点缀，再叠一行 "Merry Christmas" 字样。
 
+> **仅支持 macOS。** 项目依赖 AppKit（`NSViewRepresentable`）和 Metal，无法在 iOS、Windows 或 Linux 上运行。详见[运行环境](#运行环境)。
+
+## 目录
+
+- [特性](#特性)
+- [运行环境](#运行环境)
+- [如何运行](#如何运行)
+- [项目结构](#项目结构)
+- [把你的名字加上去](#把你的名字加上去)
+- [想再玩点花的](#想再玩点花的)
+- [License](#license)
+
 ## 特性
 
 - **GPU 点云渲染**：~56,000 个发光点，全部由 Metal vertex/fragment shader 实时绘制
